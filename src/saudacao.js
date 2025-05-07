@@ -10,7 +10,18 @@
 
 function saudacao(nome, isLogged) {
   nome = nome || "Visitante";
-  return isLogged || "Olá, " + nome + "!";
+  if(isLogged){
+    if(nome == undefined)
+      return "Olá, "
+  }
+
+  if(nome.lenght ==0){
+    return "Erro"
+  }
+  if(isLogged){
+    return "Ola visitante"
+  }
+  return isLogged || `Olá,  + nome + ! `;
 }
 
 // Testando a função

@@ -10,8 +10,11 @@
 // - Remove espaços extras no início e no final da frase antes de realizar a verificação.
 
 function verificarPalavra(frase, palavraBusca) {
-  // TODO: implementar função
+  if(frase.lenght < 5 ){
+    return "A pal"
+  }
+  
 }
-
+verificarPalavra("ol")
 //NÃO REMOVA O CÓDIGO ABAIXO
 module.exports = { verificarPalavra };

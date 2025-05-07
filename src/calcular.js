@@ -10,8 +10,15 @@
 // - Executar a operação correta e retornar o resultado;
 
 function calcular(num1, num2, operador) {
-  // TODO: implementar função
+  if(typeof(num1)  (typeof(num1 != `number`)))
+    return "Erro: parametros invalidos"
+  
+  if(operador ++ )
+    return (num1 + num2)
+  
 }
+  
+
 
 
 //NÃO REMOVA O CÓDIGO ABAIXO
